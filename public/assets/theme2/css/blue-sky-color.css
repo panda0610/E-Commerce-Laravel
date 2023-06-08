@@ -1,0 +1,140 @@
+:root {
+    --darkblue: #5EA5AB;
+    --white: #ffffff;
+}
+
+.store-bg::before {
+    background-color: var(--darkblue);
+}
+
+.bg-y-box {
+    background-color: var(--darkblue);
+}
+
+.text-primary {
+    color: var(--darkblue) !important;
+}
+.product-box .card-product .actions {
+    background: var(--darkblue) !important;
+}
+
+.bg-primary {
+    background: var(--darkblue) !important;
+}
+#footer-main .footer-social a:hover {
+	color: var(--darkblue) !important;
+}
+.bg-darkblue {
+    background: var(--darkblue) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--darkblue) !important;
+}
+
+.form-control:focus {
+    border-color: var(--darkblue) !important;
+}
+
+.my-cart a:hover {
+    color: var(--darkblue) !important;
+}
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--darkblue) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--darkblue);
+    color: var(--darkblue) !important;
+    background-color: var(--darkblue) !important;
+}
+
+.review-title .r-rate {
+    color: var(--darkblue);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--darkblue) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--darkblue) !important;
+    border-color: var(--darkblue) !important;
+}
+
+.product-box h6 .t-black13:hover{
+    color: var(--darkblue) !important;
+}
+.simple-btn:hover span{
+    color: var(--darkblue) !important;
+}
+.simple-btn:hover svg path{
+    fill: var(--darkblue) !important;
+}
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--darkblue) !important;
+    border-color: var(--darkblue) !important;
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--darkblue) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--darkblue);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--darkblue);
+    background: var(--darkblue);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--darkblue) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--darkblue) !important;
+}
+
+.s-p-total {
+    color: var(--darkblue) !important;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--darkblue) !important;
+    background-color: var(--darkblue) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--darkblue) !important;
+}
+
+.input-primary::placeholder {
+    color: var(--darkblue) !important;
+}
+
+.box-primary {
+    border-color: var(--darkblue) !important;
+}
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--darkblue) !important;
+}
+
+@media screen and (max-width: 991px) {    
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--darkblue) !important;
+    }
+    .navbar-nav .nav-item svg path{
+        fill: var(--darkblue);
+    }
+    
+}

@@ -1,0 +1,188 @@
+:root {
+    --yellow: #F6E32F;
+    --white: #ffffff;
+    --darkyellow: #5E8155;
+}
+.svg-color {
+    fill: var(--green) !important;
+}
+.bg-y-box {
+    background-color: var(--yellow);
+}
+
+.text-primary {
+    color: var(--yellow) !important;
+}
+.home-banner-slider{
+    background: linear-gradient(180deg, rgb(245 245 245) 85%, var(--yellow) 85%);
+}
+.product-box .card-product .actions {
+    background: var(--yellow) !important;
+}
+
+.bg-primary {
+    background: var(--yellow) !important;
+}
+.item-color .bg-primary:hover {
+    background: var(--yellow) !important;
+}
+#footer-main .footer-social a:hover {
+	color: var(--yellow) !important;
+}
+
+.bg-yellow {
+    background: var(--darkyellow) !important;
+}
+
+
+
+.form-control:focus {
+    border-color: var(--yellow) !important;
+}
+
+.my-cart a:hover {
+    color: var(--yellow) !important;
+}
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--yellow) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--yellow);
+    color: var(--yellow) !important;
+    background-color: var(--yellow) !important;
+}
+
+.review-title .r-rate {
+    color: var(--yellow);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--yellow) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+
+.product-box h6 .t-black13:hover{
+    color: var(--yellow) !important;
+}
+.simple-btn:hover span{
+    color: var(--yellow) !important;
+}
+.simple-btn:hover svg path{
+    fill: var(--yellow) !important;
+}
+.new-collection-section:before {
+    background-color: var(--yellow);
+}
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+.btn-black:hover{
+    background-color: var(--yellow) !important;
+}
+.topbar-social ul li a:hover span>path {
+    fill: var(--yellow) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--yellow);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--yellow);
+    background: var(--yellow);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--yellow) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--yellow) !important;
+}
+
+.input-primary {
+    border: 1px solid var(--yellow) !important;
+	color: var(--yellow) !important;
+}
+input.form-control {
+	color: var(--yellow) !important;
+}
+.cart-subtotal{
+    background-color: var(--yellow) !important;
+}
+.input-primary::placeholder {
+    color: var(--yellow) !important;
+}
+.text-primary{
+    color: var(--yellow) !important;
+}
+
+.box-primary {
+    border-color: var(--yellow) !important;
+}
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--yellow) !important;
+}
+.testimonial-section::before,
+.categories-section .cat-box:before{
+    background: var(--yellow) !important;
+}
+.new-collection-box::before,
+.new-collection-section .carousel::before{
+    border-left: 10px solid var(--yellow) !important;
+}
+.bt-10{
+    border-top: 10px solid var(--yellow) !important;
+}
+@media screen and (max-width: 991px) {
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--yellow) !important;
+    }
+    .navbar-nav .nav-item svg path{
+        fill: var(--yellow);
+    }
+    .new-collection-section .new-collection-box.bt-0{
+        border-top: 10px solid var(--yellow) !important;
+    }
+
+}
+@media all and (max-width: 768px) {
+    a.nav-heart.btn.btn-black.ml-2.mr-2.rounded-pill.hover-translate-y-n3 {
+        background: #000;
+    }
+    nav#navbar-main {
+        background-color: #f6e32f;
+    }
+
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 90%, var(--yellow) 85%);
+    }
+}
+@media all and (max-width: 420px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 87.5%, var(--yellow) 85%);
+    }
+}
+@media screen and (max-width: 576px) {
+    .new-collection-section .new-collection-box.bt-0 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+    .new-collection-box::before, .new-collection-section .carousel::before {
+        border-left: 6px solid var(--yellow) !important;
+    }
+    .bt-10 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+}

@@ -1,0 +1,234 @@
+:root {
+    --darkblack: #2B2D2D;
+    --white: #ffffff;
+}
+
+.bg-y-box {
+    background-color: var(--darkblack);
+}
+
+.card-body .bg-primary:hover,
+.card-body .bg-primary:hover span {
+    color: var(--darkblack) !important;
+}
+
+.card-body .bg-primary:hover svg path,
+.card-body .bg-primary svg path:hover {
+    fill: var(--darkblack) !important;
+}
+
+.text-primary {
+    color: var(--darkblack) !important;
+}
+
+.home-banner-slider {
+    background: linear-gradient(180deg, rgb(245 245 245) 85%, var(--darkblack) 85%);
+}
+
+.product-box .card-product .actions {
+    background: var(--darkblack) !important;
+}
+
+.bg-primary {
+    background: var(--darkblack) !important;
+}
+
+.item-color .bg-primary:hover {
+    background: var(--darkblack) !important;
+}
+
+#footer-main .footer-social a:hover {
+    color: var(--darkblack) !important;
+}
+
+.bg-darkblack {
+    background: var(--darkblack) !important;
+}
+
+.form-control:focus {
+    border-color: var(--darkblack) !important;
+}
+
+.my-cart a:hover {
+    color: var(--darkblack) !important;
+}
+
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--darkblack) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--darkblack);
+    color: var(--darkblack) !important;
+    background-color: var(--darkblack) !important;
+}
+
+.review-title .r-rate {
+    color: var(--darkblack);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--darkblack) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--darkblack) !important;
+    border-color: var(--darkblack) !important;
+}
+
+.product-box h6 .t-black13:hover {
+    color: var(--darkblack) !important;
+}
+
+.simple-btn:hover span {
+    color: var(--darkblack) !important;
+}
+
+.simple-btn:hover svg path {
+    fill: var(--darkblack) !important;
+}
+
+.new-collection-section:before {
+    background-color: var(--darkblack);
+}
+
+
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--darkblack) !important;
+    border-color: var(--darkblack) !important;
+}
+
+.btn-black:hover {
+    background-color: var(--darkblack) !important;
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--darkblack) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--darkblack);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--darkblack);
+    background: var(--darkblack);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--darkblack) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--darkblack) !important;
+}
+
+.input-primary {
+    border: 1px solid var(--darkblack) !important;
+    color: var(--darkblack) !important;
+}
+
+input.form-control {
+    color: var(--darkblack) !important;
+}
+
+.cart-subtotal {
+    background-color: var(--darkblack) !important;
+}
+
+.input-primary::placeholder {
+    color: var(--darkblack) !important;
+}
+
+.text-primary {
+    color: var(--darkblack) !important;
+}
+
+.box-primary {
+    border-color: var(--darkblack) !important;
+}
+
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--darkblack) !important;
+}
+
+.testimonial-section::before,
+.categories-section .cat-box:before {
+    background: var(--darkblack) !important;
+}
+
+.new-collection-box::before,
+.new-collection-section .carousel::before {
+    border-left: 10px solid var(--darkblack) !important;
+}
+
+.bt-10 {
+    border-top: 10px solid var(--darkblack) !important;
+}
+
+.t-black {
+    color: var(--white) !important;
+}
+
+.store-promotions .icon i {
+    color: var(--white);
+    font-size: 30px;
+}
+
+.product_title {
+    color: var(--white) !important;
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.text-dark {
+    color: var(--white) !important;
+}
+
+@media screen and (max-width: 991px) {
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--darkblack) !important;
+    }
+    .navbar-nav .nav-item svg path {
+        fill: var(--darkblack);
+    }
+    .new-collection-section .new-collection-box.bt-0 {
+        border-top: 10px solid var(--darkblack) !important;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 90%, var(--yellow) 85%);
+    }
+    .navbar-expand-lg .navbar-collapse .btn-black{
+        background:#2b2d2d;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 87.5%, var(--yellow) 85%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .new-collection-section .new-collection-box.bt-0 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+    .new-collection-box::before,
+    .new-collection-section .carousel::before {
+        border-left: 6px solid var(--yellow) !important;
+    }
+    .bt-10 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+}

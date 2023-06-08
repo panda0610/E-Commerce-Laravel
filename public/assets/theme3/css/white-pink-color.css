@@ -1,0 +1,177 @@
+:root {
+    --pink: #FFCCB4;
+    --white: #ffffff;
+}
+.bg-y-box {
+    background-color: var(--pink);
+}
+
+.text-primary {
+    color: var(--pink) !important;
+}
+.product-box .card-product .actions {
+    background: var(--pink) !important;
+}
+.home-banner-slider{
+    background: linear-gradient(180deg, rgb(245 245 245) 85%, var(--pink) 85%);
+}
+
+.bg-primary {
+    background: var(--pink) !important;
+}
+.item-color .bg-primary:hover {
+    background: var(--pink) !important;
+}
+#footer-main .footer-social a:hover {
+	color: var(--pink) !important;
+}
+
+.bg-pink {
+    background: var(--darkyellow) !important;
+}
+
+
+
+.form-control:focus {
+    border-color: var(--pink) !important;
+}
+
+.my-cart a:hover {
+    color: var(--pink) !important;
+}
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--pink) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--pink);
+    color: var(--pink) !important;
+    background-color: var(--pink) !important;
+}
+
+.review-title .r-rate {
+    color: var(--pink);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--pink) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
+}
+
+.product-box h6 .t-black13:hover{
+    color: var(--pink) !important;
+}
+.simple-btn:hover span{
+    color: var(--pink) !important;
+}
+.simple-btn:hover svg path{
+    fill: var(--pink) !important;
+}
+.new-collection-section:before {
+    background-color: var(--pink);
+}
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
+}
+.btn-black:hover{
+    background-color: var(--pink) !important;
+}
+.topbar-social ul li a:hover span>path {
+    fill: var(--pink) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--pink);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--pink);
+    background: var(--pink);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--pink) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--pink) !important;
+}
+
+.input-primary {
+    border: 1px solid var(--pink) !important;
+	color: var(--pink) !important;
+}
+input.form-control {
+	color: var(--pink) !important;
+}
+.cart-subtotal{
+    background-color: var(--pink) !important;
+}
+.input-primary::placeholder {
+    color: var(--pink) !important;
+}
+.text-primary{
+    color: var(--pink) !important;
+}
+
+.box-primary {
+    border-color: var(--pink) !important;
+}
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--pink) !important;
+}
+.testimonial-section::before,
+.categories-section .cat-box:before{
+    background: var(--pink) !important;
+}
+.new-collection-box::before,
+.new-collection-section .carousel::before{
+    border-left: 10px solid var(--pink) !important;
+}
+.bt-10{
+    border-top: 10px solid var(--pink) !important;
+}
+@media screen and (max-width: 991px) {    
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--pink) !important;
+    }
+    .navbar-nav .nav-item svg path{
+        fill: var(--pink);
+    }
+    .new-collection-section .new-collection-box.bt-0{
+        border-top: 10px solid var(--pink) !important;
+    }
+    
+}
+@media all and (max-width: 767px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 90%, var(--yellow) 85%);
+    }
+}
+@media all and (max-width: 420px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 87.5%, var(--yellow) 85%);
+    }
+}
+@media screen and (max-width: 576px) {
+    .new-collection-section .new-collection-box.bt-0 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+    .new-collection-box::before, .new-collection-section .carousel::before {
+        border-left: 6px solid var(--yellow) !important;
+    }
+    .bt-10 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+}

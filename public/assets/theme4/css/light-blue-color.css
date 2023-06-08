@@ -1,0 +1,227 @@
+:root {
+    --darkBlue: #5E7698;
+    --white: #ffffff;
+    --light-gray: #F2F7FA;
+}
+
+.payment-card.current-cart {
+    border: 1px solid var(--darkBlue);
+    background: var(--darkBlue);
+}
+
+.p-color .button-group-pills .btn {
+    border: 2px solid var(--darkBlue) !important;
+}
+.p-color .button-group-pills .btn.active,
+.p-color .button-group-pills .btn:hover {
+    border: 2px solid var(--darkBlue);
+    background: var(--darkBlue);
+}
+
+.my-cart .pt-price, .sub-price, .p-price, .big-btn, .p-tablist .nav-tabs .nav-item .nav-link.active,
+.home-hader .nav-item a.big-btn, .btn-border:hover {
+    color: var(--darkBlue) !important;
+}
+.text-primary, .cat-dcs h3, .cat-box .btn.btn-icon {
+    color: var(--darkBlue) !important;
+}
+.product-box .card-product h6 a:hover, .btn-primary:hover span {
+    color: var(--darkBlue) !important;
+}
+.bg-gradiant{
+    background: linear-gradient(180deg, rgba(94, 118, 152, 0) 0%, var(--darkBlue) 100%);
+}
+.bg-primary, footer, .store-promotions, .testimonial-section  {
+    background: var(--darkBlue) !important;
+    color: #fff !important;
+	border-color: var(--darkBlue) !important;
+}
+.home-hader .nav-item a.big-btn {
+	border-color: #fff !important;
+}
+.p-color ul li a {
+    border: 2px solid var(--darkBlue) !important;
+}
+
+.bg-darkBlue {
+    background: var(--darkBlue) !important;
+}
+
+.bg-lighgray{
+    background: var(--light-gray) !important;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--darkBlue) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--darkBlue) !important;
+}
+.form-control:focus {
+	border-color: var(--darkBlue) !important;
+}
+.my-cart a:hover {
+	 color: var(--darkBlue) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--darkBlue);
+    color: var(--white) !important;
+    background:  var(--darkBlue);
+}
+
+.review-title .r-rate {
+    color: var(--darkBlue);
+}
+
+body .card, .btn-mycart {
+    border: 1px solid var(--darkBlue);
+}
+
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--darkBlue) !important;
+    border-color: var(--darkBlue) !important;
+}
+.btn-primary:hover {
+    color: var(--darkBlue);
+    background: none !important;
+}
+
+.product-box .card-product:hover {
+    /* background: var(--darkBlue); */
+}
+
+.product-box .card-product:hover .bg-primary svg>path {
+    fill: var(--darkBlue) !important;
+}
+
+.product-box .card-product:hover .static-rating .text-gray>path {
+    /* fill: var(--darkBlue) !important; */
+}
+
+header .nav-heart .badge-pill {
+    background: var(--darkBlue);
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--darkBlue) !important;
+}
+
+.testimonial-slider .swiper-slide .card {
+    border: none;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--white);
+}
+
+.p-tablist .nav-tabs .nav-item .nav-link.active {
+    border-color: var(--white);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover{
+    border: 1px solid var(--darkBlue);
+    color: var(--white);
+    background: var(--darkBlue);
+}
+a.btn-mycart, .cat-dcs p.t-primary {
+	color: var(--darkBlue);
+}
+.card-body.b-bottom {
+	border-color: var(--darkBlue);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--darkBlue) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--darkBlue) !important;
+}
+
+.s-p-total {
+    color: var(--darkBlue) !important;
+}
+
+.my-cart-section .custom-checkbox .custom-control-label {
+    font-weight: 600;
+    color: #274a5a;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--darkBlue) !important;
+    background-color: var(--darkBlue) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--darkBlue) !important;
+}
+.nav-item a.big-btn:hover {
+    background: none !important;
+}
+
+.input-primary::placeholder {
+    color: var(--darkBlue) !important;
+    font-weight: 500;
+}
+.form-control::placeholder, select.form-control {
+    color: var(--darkBlue) !important;
+    font-weight: 500;
+}
+.product-box .card-product:hover .bg-primary, .nav-item a.big-btn:hover {
+    background: transparent !important;
+    color: var(--darkBlue) !important;
+    border-color: var(--darkBlue);
+}
+.product-box .card-product .bg-primary:focus {
+    background: transparent !important;
+    color: var(--darkBlue) !important;
+}
+.product-box .card-product .bg-primary:focus svg path {
+    fill: var(--darkBlue) !important;
+}
+.box-primary {
+    border-color: var(--darkBlue) !important;
+    background: var(--darkBlue);
+}
+a.big-btn.border-btn:hover span {
+    color: var(--darkBlue) !important;
+}
+a.big-btn.border-btn:hover svg path, .btn-border:hover svg path, .btn-primary:hover svg path, 
+.nav-item a.big-btn:hover svg path {
+    fill: var(--darkBlue) !important;
+}
+
+@media screen and (max-width: 991px) {
+    header .nav-heart svg path {
+        fill:  var(--darkBlue) !important;;
+    }
+    .home-hader .nav-item a.big-btn {
+        background: var(--darkBlue) !important;
+        color: #ffffff !important;
+        border: 2px solid var(--darkBlue) !important;
+    }
+    .home-hader .nav-item a.big-btn:hover {
+        background: none !important;
+        color: var(--darkBlue) !important;
+        border-color: var(--darkBlue) !important;
+    }
+    .home-hader .nav-item a.big-btn:hover svg path {
+        fill: var(--darkBlue) !important;
+    }
+}
+/* @media screen and (max-width: 991px) {
+    .navbar-toggler-icon {
+        background: var(--darkBlue);
+    }
+} */

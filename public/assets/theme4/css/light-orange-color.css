@@ -1,0 +1,231 @@
+:root {
+    --orange: #F3BA51;
+    --white: #ffffff;
+    --light-gray: #FCEACA;
+}
+
+.payment-card.current-cart {
+    border: 1px solid var(--orange);
+    background: var(--orange);
+}
+
+.p-color .button-group-pills .btn {
+    border: 2px solid var(--orange) !important;
+}
+.p-color .button-group-pills .btn.active,
+.p-color .button-group-pills .btn:hover {
+    border: 2px solid var(--orange);
+    background: var(--orange);
+}
+
+.my-cart .pt-price, .sub-price, .p-price, .big-btn, .p-tablist .nav-tabs .nav-item .nav-link.active,
+.home-hader .nav-item a.big-btn, .btn-border:hover {
+    color: var(--orange) !important;
+}
+.text-primary, .cat-dcs h3, .cat-box .btn.btn-icon {
+    color: var(--orange) !important;
+}
+.product-box .card-product h6 a:hover, .btn-primary:hover span {
+    color: var(--orange) !important;
+}
+.bg-gradiant{
+    background: linear-gradient(180deg, rgba(94, 118, 152, 0) 0%, var(--orange) 100%);
+}
+.bg-primary, footer, .store-promotions, .testimonial-section  {
+    background: var(--orange) !important;
+    color: #fff !important;
+	border-color: var(--orange) !important;
+}
+.home-hader .nav-item a.big-btn {
+	border-color: #fff !important;
+}
+.p-color ul li a {
+    border: 2px solid var(--orange) !important;
+}
+
+.bg-orange {
+    background: var(--orange) !important;
+}
+
+.bg-lighgray{
+    background: var(--light-gray) !important;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--orange) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--orange) !important;
+}
+.form-control:focus {
+	border-color: var(--orange) !important;
+}
+.my-cart a:hover {
+	 color: var(--orange) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--orange);
+    color: var(--white) !important;
+    background:  var(--orange);
+}
+
+.review-title .r-rate {
+    color: var(--orange);
+}
+
+body .card, .btn-mycart {
+    border: 1px solid var(--orange);
+}
+
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--orange) !important;
+    border-color: var(--orange) !important;
+}
+.btn-primary:hover {
+    color: var(--orange);
+    background: none !important;
+}
+
+.product-box .card-product:hover {
+    /* background: var(--orange); */
+}
+
+.product-box .card-product:hover .bg-primary svg>path {
+    fill: var(--orange) !important;
+}
+
+.product-box .card-product:hover .static-rating .text-gray>path {
+    /* fill: var(--orange) !important; */
+}
+
+header .nav-heart .badge-pill {
+    background: var(--orange);
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--orange) !important;
+}
+
+.testimonial-slider .swiper-slide .card {
+    border: none;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--white);
+}
+
+.p-tablist .nav-tabs .nav-item .nav-link.active {
+    border-color: var(--white);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover{
+    border: 1px solid var(--orange);
+    color: var(--white);
+    background: var(--orange);
+}
+a.btn-mycart, .cat-dcs p.t-primary {
+	color: var(--orange);
+}
+.card-body.b-bottom {
+	border-color: var(--orange);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--orange) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--orange) !important;
+}
+
+.s-p-total {
+    color: var(--orange) !important;
+}
+
+.my-cart-section .custom-checkbox .custom-control-label {
+    font-weight: 600;
+    color: #274a5a;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--orange) !important;
+    background-color: var(--orange) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--orange) !important;
+}
+.nav-item a.big-btn:hover {
+    background: none !important;
+}
+
+.input-primary::placeholder {
+    color: var(--orange) !important;
+    font-weight: 500;
+}
+.form-control::placeholder, select.form-control {
+    color: var(--orange) !important;
+    font-weight: 500;
+}
+.product-box .card-product:hover .bg-primary, .nav-item a.big-btn:hover {
+    background: transparent !important;
+    color: var(--orange) !important;
+    border-color: var(--orange);
+}
+.product-box .card-product .bg-primary:focus {
+    background: transparent !important;
+    color: var(--orange) !important;
+}
+.product-box .card-product .bg-primary:focus svg path {
+    fill: var(--orange) !important;
+}
+.box-primary {
+    border-color: var(--orange) !important;
+    background: var(--orange);
+}
+a.big-btn.border-btn:hover span {
+    color: var(--orange) !important;
+}
+a.big-btn.border-btn:hover svg path, .btn-border:hover svg path, .btn-primary:hover svg path, 
+.nav-item a.big-btn:hover svg path {
+    fill: var(--orange) !important;
+}
+
+@media screen and (max-width: 991px) {
+    header .nav-heart svg path {
+        fill:  var(--orange) !important;
+    }
+    .home-hader .nav-item a.big-btn {
+        border: 2px solid var(--orange) !important;
+        background: #5e7698 !important;
+        color: #ffffff !important;
+    }
+    .home-hader .nav-item a.big-btn:hover {
+        background: none !important;
+        color: var(--orange) !important;
+    }
+    .home-hader .nav-item a.big-btn:hover {
+        background: none !important;
+        color: var(--orange) !important;
+        border-color: var(--orange) !important;
+    }
+    .home-hader .nav-item a.big-btn:hover svg path {
+        fill: var(--orange) !important;
+    }
+}
+/* @media screen and (max-width: 991px) {
+    .navbar-toggler-icon {
+        background: var(--orange);
+    }
+} */

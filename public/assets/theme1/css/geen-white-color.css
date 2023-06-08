@@ -1,0 +1,156 @@
+:root {
+    --green: #E7D7BD;
+    --white: #ffffff;
+}
+
+.text-primary {
+    color: var(--green) !important;
+}
+
+.bg-primary {
+    background: var(--green) !important;
+}
+
+.bg-green {
+    background: var(--green) !important;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--green) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--green) !important;
+}
+.form-control:focus {
+	border-color: var(--green) !important;
+}
+.my-cart a:hover {
+	 color: var(--green) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--green);
+    color: var(--green) !important;
+}
+
+.review-title .r-rate {
+    color: var(--green);
+}
+
+
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
+
+.product-box .card-product:hover {
+    background: var(--green);
+}
+
+.product-box .card-product:hover .bg-primary svg>path {
+    fill: var(--green) !important;
+}
+
+.product-box .card-product:hover .static-rating .text-gray>path {
+    fill: var(--green) !important;
+}
+
+header .nav-heart .badge-pill {
+    background: var(--green);
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--green) !important;
+}
+
+.testimonial-slider .swiper-slide .card {
+    border: 2px solid var(--green);
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--green);
+}
+
+.p-tablist .nav-tabs .nav-item .nav-link.active {
+    border-color: var(--green);
+    background: var(--green);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover{
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--green) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--green) !important;
+}
+
+.s-p-total {
+    color: var(--green) !important;
+}
+
+.my-cart-section .custom-checkbox .custom-control-label {
+    font-weight: 600;
+    color: #AFAFAF;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--green) !important;
+    background-color: var(--green) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--green) !important;
+}
+
+.input-primary::placeholder {
+    color: var(--green) !important;
+}
+
+.box-primary {
+    border-color: var(--green) !important;
+}
+
+
+/* @media screen and (max-width: 991px) {
+    .navbar-toggler-icon {
+        background: var(--green);
+    }
+} */
+
+
+/*Custom Scrollbar*/
+::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;
+    overflow: visible;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color:  var(--green) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:  var(--green) !important;
+    border-radius: 8px;
+    transition: 1s;
+}

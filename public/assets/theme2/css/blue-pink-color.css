@@ -1,0 +1,141 @@
+:root {
+    --pink: #FA747D;
+    --white: #ffffff;
+    --darkpink: #FA747D;
+}
+
+.store-bg::before {
+    background-color: var(--pink);
+}
+
+.bg-y-box {
+    background-color: var(--pink);
+}
+
+.text-primary {
+    color: var(--pink) !important;
+}
+.product-box .card-product .actions {
+    background: var(--pink) !important;
+}
+
+.bg-primary {
+    background: var(--pink) !important;
+}
+
+.bg-pink {
+    background: var(--darkpink) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--pink) !important;
+}
+#footer-main .footer-social a:hover {
+	color: var(--pink) !important;
+}
+.form-control:focus {
+    border-color: var(--pink) !important;
+}
+
+.my-cart a:hover {
+    color: var(--pink) !important;
+}
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--pink) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--pink);
+    color: var(--pink) !important;
+    background-color: var(--pink) !important;
+}
+
+.review-title .r-rate {
+    color: var(--pink);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--pink) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
+}
+
+.product-box h6 .t-black13:hover{
+    color: var(--pink) !important;
+}
+.simple-btn:hover span{
+    color: var(--pink) !important;
+}
+.simple-btn:hover svg path{
+    fill: var(--pink) !important;
+}
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--pink) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--pink);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--pink);
+    background: var(--pink);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--pink) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--pink) !important;
+}
+
+.s-p-total {
+    color: var(--pink) !important;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--pink) !important;
+    background-color: var(--pink) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--pink) !important;
+}
+
+.input-primary::placeholder {
+    color: var(--pink) !important;
+}
+
+.box-primary {
+    border-color: var(--pink) !important;
+}
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--pink) !important;
+}
+
+@media screen and (max-width: 991px) {    
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--pink) !important;
+    }
+    .navbar-nav .nav-item svg path{
+        fill: var(--pink);
+    }
+    
+}

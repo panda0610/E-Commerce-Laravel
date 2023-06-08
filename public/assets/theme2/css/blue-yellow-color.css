@@ -1,0 +1,150 @@
+:root {
+    --yellow: #F5BA20;
+    --white: #ffffff;
+    --darkyellow: #5E8155;
+}
+.get-qus i, .my-cart-section .card a.btn i, .pd-rate span.static-rating i,
+.bestsellers-tabs .tab-pane .p-rate a {
+    color: var(--yellow) !important;
+}
+
+.svg-color {
+    fill: var(--yellow) !important;
+}
+.store-bg::before {
+    background-color: var(--yellow);
+}
+
+.bg-y-box {
+    background-color: var(--yellow);
+}
+
+.text-primary {
+    color: var(--yellow) !important;
+}
+.product-box .card-product .actions {
+    background: var(--yellow) !important;
+}
+
+.bg-primary {
+    background: var(--yellow) !important;
+}
+
+#footer-main .footer-social a:hover {
+	color: var(--yellow) !important;
+}
+
+.bg-yellow {
+    background: var(--darkyellow) !important;
+}
+
+.store-tabs .card-header h5 a:hover {
+    color: var(--yellow) !important;
+}
+
+.form-control:focus {
+    border-color: var(--yellow) !important;
+}
+
+.my-cart a:hover {
+    color: var(--yellow) !important;
+}
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--yellow) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--yellow);
+    color: var(--yellow) !important;
+    background-color: var(--yellow) !important;
+}
+
+.review-title .r-rate {
+    color: var(--yellow);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--yellow) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+
+.product-box h6 .t-black13:hover{
+    color: var(--yellow) !important;
+}
+.simple-btn:hover span{
+    color: var(--yellow) !important;
+}
+.simple-btn:hover svg path{
+    fill: var(--yellow) !important;
+}
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+
+.topbar-social ul li a:hover span>path {
+    fill: var(--yellow) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--yellow);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--yellow);
+    background: var(--yellow);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--yellow) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--yellow) !important;
+}
+
+.s-p-total {
+    color: var(--yellow) !important;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: var(--yellow) !important;
+    background-color: var(--yellow) !important;
+    -webkit-box-shadow: none;
+    border-radius: 100%;
+}
+
+.input-primary {
+    border: 1px solid var(--yellow) !important;
+}
+
+.input-primary::placeholder {
+    color: var(--yellow) !important;
+}
+
+.box-primary {
+    border-color: var(--yellow) !important;
+}
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--yellow) !important;
+}
+
+@media screen and (max-width: 991px) {
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--yellow) !important;
+    }
+    .navbar-nav .nav-item svg path{
+        fill: var(--yellow);
+    }
+
+}

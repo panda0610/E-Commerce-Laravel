@@ -1,0 +1,321 @@
+/* Start Theme 1 Responsive */
+@media only screen and (max-width: 1199px){
+
+}
+@media only screen and (max-width: 991px){
+
+}
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (max-width: 640px){
+    .store-dcs{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 575px){
+
+}
+@media only screen and (max-width: 480px){
+    .store-dcs{
+       font-size: 12px;
+    }
+}
+/* End Theme 1 Responsive */
+
+
+/* Start Theme 2 Responsive */
+
+@media only screen and (max-width: 1199px){
+    .testimonial-slider .t-dcs {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .store-dcs{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .w-50{
+        width: 100% !important;
+    }
+    .mb-5, .my-5{
+        margin-bottom: 0 !important;
+    }
+    .get-qus a{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .client-logo{
+        padding: 0;
+        background: #e5eef5;
+    }
+    .product-box .img-fluid{
+        max-width: 100%;
+    }
+    .card-image img.img-center.img-fluid {
+        width: 100%;
+        max-width: 100%;
+    }
+    .w-custom{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 640px){
+
+}
+@media only screen and (max-width: 575px){
+    .product-cat .card-body .p-title .btn{
+        display: inline;
+    }
+    .product-cat .card-body .p-title{
+        padding: 0 50px;
+    }
+    .product-box .card-product .actions{
+        left: 130px;
+        top: 10px;
+    }
+    .product-box .product-price{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 70px;
+    }
+    .store-dcs{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (max-width: 320px){
+    .banner-social {
+        bottom: 35px;
+    }
+    .product-box .product-price{
+        padding: 0;
+    }
+    .product-cat .card-body .p-title{
+        padding:0 20px;
+    }
+    .product-box .card-product .p-title p{
+        padding: 0 0 10px 0;
+    }
+    .product-box .card-product .actions{
+        left: 40px;
+    }
+}
+
+/* End Theme 2 Responsive */
+
+
+/* Start Theme 3 Responsive */
+
+@media only screen and (max-width: 1199px){
+    .navigation-menu .nav-item .nav-link {
+        padding: 15px;
+        letter-spacing: 0px;
+        font-size: 14px;
+    }
+    .new-collection-box.bt-0 img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .new-collection-box.bt-10 img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .f-list li a{
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 0 10px 0 0;
+    }
+}
+@media only screen and (max-width: 991px){
+    .testimonial-slider .t-dcs{
+        font-size: 18px;
+    }
+    .b2{
+        left: -27px;
+        bottom: 0;
+    }
+}
+@media only screen and (max-width: 767px){
+    .product-box .img-fluid{
+        width: 100%;
+        max-width: 110px;
+    }
+    .testimonial-slider .t-dcs{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 640px){
+
+}
+@media only screen and (max-width: 575px){
+
+}
+@media only screen and (max-width: 480px){
+
+}
+
+
+/* End Theme 3 Responsive */
+
+
+/* Start Theme 4 Responsive */
+
+@media only screen and (max-width: 1199px){
+    .big-btn{
+        padding: 9px 13px;
+        font-size: 12px;
+    }
+    .theme-4-w-100{
+        width: 100% !important;
+    }
+    .cat-dcs h3{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .cat-dcs p{
+        font-size: 11px;
+    }
+    .cat-box{
+        padding: 42px 0;
+    }
+    .testimonial-slider .t-dcs {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    ul.list-unstyled.f-list li{
+        margin: 0 24px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .cat-box{
+        padding: 70px 0;
+    }
+    .testimonial-slider .t-dcs {
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+    .cat-dcs{
+        padding: 0 0 0 10px;
+    }
+    .testimonial-slider .t-dcs {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 640px){
+
+}
+@media only screen and (max-width: 575px){
+    .product-box .card-product .actions {
+        left: 214px;
+        top: 22px;
+    }
+    .testimonial-slider .t-dcs {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (max-width: 320px){
+    img.image-right.out.sidw {
+        object-fit: cover;
+    }
+    .cat-box{
+        padding: 60px 0 80px 0;
+    }
+    .product-box .card-product .actions {
+        left: 230px;
+        top: 35px;
+    }
+    .testimonial-slider .t-dcs {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* End Theme 4 Responsive */
+
+
+/* Start Theme 5 Responsive */
+
+@media only screen and (max-width: 1199px){
+    .testimonial-slider .t-dcs {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    ul.list-unstyled.f-list li{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 991px){
+    .small-product:last-child{
+        /* float: left; */
+    }
+    h2.show-text {
+        display: block !important;
+    }
+    .small_product_custom {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 767px){
+    .card-image img.img-center.img-fluid {
+        width: 100%;
+        max-width: 50%;
+    }
+    p.lead.mt-2.store-dcs {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .store-title{
+        margin-bottom: 20px;
+    }
+    .f-list li a{
+        letter-spacing: 0px;
+    }
+    .f-list li{
+        padding-bottom: 4px;
+    }
+    h2.show-text {
+        display: block;
+    }
+}
+@media only screen and (max-width: 640px){
+    .footer_social_start{
+        display: flex;
+        justify-content: start;
+    }
+    .m_custom{
+        margin-bottom: 0px !important;
+    }
+}
+@media only screen and (max-width: 575px){
+    #footer-main ul.nav{
+        justify-content: start;
+    }
+    .nav-link{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .card.card-product .p-button{
+        bottom: -15px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .card.card-product .p-button{
+        bottom: -15px;
+    }
+}
+
+/* End Theme 5 Responsive */

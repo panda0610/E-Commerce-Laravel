@@ -1,0 +1,180 @@
+:root {
+    --green: #7DB802;
+    --white: #ffffff;
+}
+.bg-y-box {
+    background-color: var(--green);
+}
+
+.text-primary {
+    color: var(--green) !important;
+}
+.home-banner-slider{
+    position: relative;
+    height: 856px;
+    background: linear-gradient(180deg, rgb(245 245 245) 85%, var(--green) 85%);
+    padding: 150px 0px 40px 0px;
+}
+.product-box .card-product .actions {
+    background: var(--green) !important;
+}
+
+.bg-primary {
+    background: var(--green) !important;
+}
+.item-color .bg-primary:hover {
+    background: var(--green) !important;
+}
+#footer-main .footer-social a:hover {
+	color: var(--green) !important;
+}
+
+.bg-green {
+    background: var(--green) !important;
+}
+
+
+
+.form-control:focus {
+    border-color: var(--green) !important;
+}
+
+.my-cart a:hover {
+    color: var(--green) !important;
+}
+.home-banner-slider .carousel-indicators .active {
+    background-color: var(--green) !important;
+}
+
+.p-color ul li a:hover,
+.p-color ul li a.active {
+    border: 2px solid var(--green);
+    color: var(--green) !important;
+    background-color: var(--green) !important;
+}
+
+.review-title .r-rate {
+    color: var(--green);
+}
+
+.banner-social ul li a:hover svg path {
+    fill: var(--green) !important;
+}
+
+.product-detail-data .nav-tabs .nav-item .nav-link.active {
+    color: var(--white) !important;
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
+
+.product-box h6 .t-black13:hover{
+    color: var(--green) !important;
+}
+.simple-btn:hover span{
+    color: var(--green) !important;
+}
+.simple-btn:hover svg path{
+    fill: var(--green) !important;
+}
+.new-collection-section:before {
+    background-color: var(--green);
+}
+/* buttton css */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
+.btn-black:hover{
+    background-color: var(--green) !important;
+}
+.topbar-social ul li a:hover span>path {
+    fill: var(--green) !important;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+    background: var(--green);
+}
+
+.btn-mycart.active,
+.btn-mycart:hover {
+    border: 1px solid var(--green);
+    background: var(--green);
+}
+
+.topbar-social li a:hover svg>path {
+    fill: var(--green) !important;
+}
+
+.top-footer ul li a:hover {
+    color: var(--green) !important;
+}
+
+.input-primary {
+    border: 1px solid var(--green) !important;
+	color: var(--green) !important;
+}
+input.form-control {
+	color: var(--green) !important;
+}
+.cart-subtotal{
+    background-color: var(--green) !important;
+}
+.input-primary::placeholder {
+    color: var(--green) !important;
+}
+.text-primary{
+    color: var(--green) !important;
+}
+
+.box-primary {
+    border-color: var(--green) !important;
+}
+.breadcrumb-section .breadcrumb .breadcrumb-item a:hover {
+    color: var(--green) !important;
+}
+.testimonial-section::before,
+.categories-section .cat-box:before{
+    background: var(--green) !important;
+}
+.new-collection-box::before,
+.new-collection-section .carousel::before{
+    border-left: 10px solid var(--green) !important;
+}
+.bt-10{
+    border-top: 10px solid var(--green) !important;
+}
+@media screen and (max-width: 991px) {    
+    .navigation-menu .nav-item .nav-link:hover {
+        color: var(--green) !important;
+    }
+    .navbar-nav .nav-item svg path{
+        fill: var(--green);
+    }
+    .new-collection-section .new-collection-box.bt-0{
+        border-top: 10px solid var(--green) !important;
+    }
+    
+}
+@media all and (max-width: 767px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 90%, var(--yellow) 85%);
+    }
+}
+@media all and (max-width: 420px) {
+    .home-banner-slider {
+        background: linear-gradient(180deg, rgb(245 245 245) 87.5%, var(--yellow) 85%);
+    }
+}
+@media screen and (max-width: 576px) {
+    .new-collection-section .new-collection-box.bt-0 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+    .new-collection-box::before, .new-collection-section .carousel::before {
+        border-left: 6px solid var(--yellow) !important;
+    }
+    .bt-10 {
+        border-top: 6px solid var(--yellow) !important;
+    }
+}
